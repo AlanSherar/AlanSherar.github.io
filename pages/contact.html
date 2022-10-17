@@ -20,7 +20,43 @@
 </header>
 
     <main>
-        
+        <h2><a href="">arecstudio@gmail.com</a></h2>
+        <h2><a href="">Preferís Whatsapp? Lo tenemos!</a></h2>
+        <section>
+            <h2>También podes mandarnos un <span class="bold">formulario directo</span></h2>
+            <form action="">
+                <label for="nombreApellido">Nombre y apellido: </label>
+                <input type="text" id="nombreApellido" name="nombreCompleto" placeholder="Sebastián Rodriguez">
+
+                <label for="correoElectronico">Correo electrónico: </label>
+                <input type="email" id="correoElectronico" name="e-mail" placeholder="tunombre@gmail.com">
+
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" id="telefono" name="numTelefono" placeholder="+549123456789">
+                
+                <label for="horario">¿Que horario preferis?</label>
+                
+                <input type="checkbox" id="horario" name="sessionHorarios" value="mañana">
+                <label for="horario">Mañana</label>
+                <input type="checkbox" id="horario" name="sessionHorarios" value="tarde">
+                <label for="horario">Tarde</label>
+                <input type="checkbox" id="horario" name="sessionHorarios" value="noche">
+                <label for="horario">Noche</label>
+
+                <label for="cantidad">¿Cuántos músicos vendrán?</label>
+                <select name="cantidadMusicos" id="cantidad">
+                    <option value="uno">Solista.</option>
+                    <option value="dos">Dueto.</option>
+                    <option value="varios">Más de tres.</option>
+                </select>
+
+                <label for="comentario">¿Algo que quieras añadir?</label>
+                <textarea name="comentarios" id="comentario" cols="30" rows="10" placeholder="Algo que sientas que es necesario aclarar."></textarea>
+
+
+                <input type="submit" value="Enviar formulario">
+            </form>           
+        </section>
     </main>
 
     <footer>
