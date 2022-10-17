@@ -20,6 +20,7 @@
 </header>
 
     <main>
+        <h2>Contacto, redes sociales y links</h2>
         <h2><a href="">arecstudio@gmail.com</a></h2>
         <h2><a href="">Preferís Whatsapp? Lo tenemos!</a></h2>
         <section>
@@ -34,14 +35,25 @@
                 <label for="telefono">Número de teléfono</label>
                 <input type="tel" id="telefono" name="numTelefono" placeholder="+549123456789">
                 
-                <label for="horario">¿Que horario preferis?</label>
                 
-                <input type="checkbox" id="horario" name="sessionHorarios" value="mañana">
-                <label for="horario">Mañana</label>
-                <input type="checkbox" id="horario" name="sessionHorarios" value="tarde">
-                <label for="horario">Tarde</label>
-                <input type="checkbox" id="horario" name="sessionHorarios" value="noche">
-                <label for="horario">Noche</label>
+                <fieldset>
+                    <legend>Preferencias de horario para session</legend>
+                    <label for="horario">Mañana:</label>
+                    <select id="horario" name="mañana">
+                        <option value="noMañana">No</option>
+                        <option value="siMañana">Si</option>
+                    </select>
+                    <label for="horario">Tarde:</label>
+                    <select id="horario" name="Tarde">
+                        <option value="noTarde">No</option>
+                        <option value="siTarde">Si</option>
+                    </select>
+                    <label for="horario">Noche:</label>
+                    <select id="horario" name="Noche">
+                        <option value="noNoche">No</option>
+                        <option value="siNoche">Si</option>
+                    </select>
+                </fieldset>
 
                 <label for="cantidad">¿Cuántos músicos vendrán?</label>
                 <select name="cantidadMusicos" id="cantidad">
