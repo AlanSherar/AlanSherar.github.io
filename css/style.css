@@ -1,0 +1,131 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    color: #FAFBFD;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #080B12;
+}
+header {
+    background-color: #0F0826;
+}
+footer {
+    background-color: #0A0140;
+}
+header, footer, nav, article, ul, section, form, h2, h4{
+    display:flex;
+}
+footer, nav{
+    min-width:100%;
+    flex-direction: row;
+    align-items: center;
+}
+nav {
+    justify-content: space-between;
+}
+footer {
+    padding: 1.7em 0;
+    justify-content: space-evenly;
+}
+section {
+    flex-direction: column;
+    margin: 0 5%;
+    max-width: 90%;
+    justify-content: center;
+}
+form {
+    flex-direction: column;
+    align-items: center;
+}
+label, input, textarea, fieldset {
+    margin: 0.5em;
+}
+fieldset {
+    padding: 0.5em;
+}
+input, textarea {
+    color: #080B12;
+}
+select {
+    max-width: fit-content;
+    background-color: #080B12;
+}
+h1 {
+    margin: 1em 0 ;
+}
+h2, h4 {
+    flex-direction: column;
+    justify-content:center;
+}
+ul{
+    margin: 0.5em 2em;
+}
+li {
+    padding: 0.3em 2em;
+}
+.logo {
+    font-size: 3em;
+    padding: 0.5em 1em ;
+}
+.heading {
+    margin: 0.5em 0;
+}
+.recBtn, .insBtn, .submit {
+    display:inline-block;
+    padding: 0.3em 0.3em;
+    margin: 1em;
+    border-radius: 0.4em;
+    max-width: 8em;
+    align-self: center;
+}
+.recBtn {
+    background-color: #4F22F2;    
+}
+.insBtn {
+    color: #e40356;
+    background-color: #FAFBFD;
+    font-weight: bolder;
+}
+.introduccion {
+    padding: 2em 2em;
+}
+.descripcion {
+    padding: 0em 8em;
+}
+.descripcion p {
+    padding: 0.7em 0;
+}
+.faq {
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.faq article {
+    flex-direction: column;
+}
+.faq article p {
+    padding: 0.2em 15em;
+}
+.btns {
+    margin: 0.8em 0;
+}
+.rrssCliente *{
+    margin: 0.3em;
+}
+.carousel {
+    justify-content: space-between;
+}
+.carousel img {
+    max-width: 32%;
+}
+.contactLinks h2 {
+    flex-direction: column;
+    align-items: center;
+}
+.contactLinks a {
+    max-width: fit-content;
+}
