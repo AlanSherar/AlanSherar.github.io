@@ -12,16 +12,37 @@ header {
 footer {
     background-color: #0c0425;
 }
+/* texto y links */
 a {
     text-decoration: none;
-    color: white;
+    color: #f8f5ff;
 }
+.faq h3{
+    color: black;
+}
+.faq-q {
+    background-color: #ffffff;
+}
+.faq-r {
+    color: #f8f5ff;
+}
+/* accordion */
+.accordion-button {
+    background-color: #ffffff;
+    color: #0c0425;
+    font-weight: 600;
+}
+.accordion-item {
+    background-color: #05040f;
+}
+/* navBar */
 .navbar-toggler-icon {
     background-color: #231652;
 }
 .navbar-toggler {
     background-color: #231652;
 }
+/* Botones */
 .recBtn {
     background-color: #4F22F2;    
 }
@@ -30,6 +51,8 @@ a {
     background-color: #FAFBFD;
     font-weight: bolder;
 }
+
+
 /*
 header, footer, nav, article, ul, section, form, h2, h4{
     display:flex;

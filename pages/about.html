@@ -71,40 +71,136 @@
         </nav>
     </header>
     
-    <main>
-        <h1>Acerca de AREC°</h1>
-        
-        <h3 class="descripcion">
-            <p>Extiende la descripción introductoria sobre qué es AREC°         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officia cupiditate voluptatibus et maiores ipsa qui pariatur omnis accusantium? Nisi.</p>
-            <p>Explicar los beneficios de grabar en un estudio y producir su música en AREC°        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut dicta totam eaque illo harum, autem facere reiciendis dolor sit aliquam.</p>
-            <p>Explicar el modo de operar de AREC° para, grabar y producir cada proyecto musical        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum labore obcaecati corporis quisquam molestiae, magnam quam quos praesentium debitis?</p>
-        </h3>
-    
-        <section id="faq">
-            <h2>FAQ</h2>
-            <article>
-                <h3>
-                    ¿Cuáles son los precios?
-                </h3>
-                    <p>repuesta Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quo placeat voluptatibus?</p>
+    <main class="text-center">
+        <!-- Titulo About-->
+        <div class="container-fluid row justify-content-center p-0 mx-0 my-3">
+            <h1 class="col col-auto p-0 m-0">Acerca de AREC°</h1>
+        </div>
+        <!-- Description -->
+        <section class="container-fluid row row-cols-1 justify-content-center p-0 mx-0 mb-3">            
+            <p class="col col-7">
+                Extiende la descripción introductoria sobre qué es AREC°
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem laborum corporis excepturi nam dolorem et nostrum! Sapiente, nihil laboriosam.
+            </p>
+            <p class="col col-7">
+                Explicar los beneficios de grabar en un estudio y producir su música en AREC°
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ipsa qui officia voluptatem nihil nisi fuga saepe eveniet magnam vel.
+            </p>
+            <p class="col col-7">
+                Explicar el modo de operar de AREC° para, grabar y producir cada proyecto musical
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero dolore, totam praesentium ipsa recusandae possimus nam reiciendis ut! Laudantium?
+            </p>
+        </section>
+        <!-- Titulo FAQ -->
+        <div id="faq" class="container-fluid row justify-content-center p-0 mx-0 mb-3">
+            <h2 class="col col-auto fs-1 p-0 m-0">FAQ</h2>
+        </div>
+
+        <!-- FAQ mobile -->
+        <section class="faq text-start mb-3 d-md-none">
+            <!-- FAQ item -->
+            <article class="container-md row px-4 m-0 mb-2">
+                <div class="faq-q col col-auto rounded p-0 m-0 mb-2">
+                    <h3 class="py-1 px-2 m-0">
+                        ¿Cuáles son los precios?
+                    </h3>
+                </div>
+                <div class="ms-auto col-8 p-0 m-0 ">
+                    <p class="py-1 px-2 m-0">repuesta Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quo placeat voluptatibus?</p>
+                </div>
             </article>
-            <article>
-                <h3>
-                    ¿Cuánto tardaría una canción?
-                </h3>
-                    <p>repuesta Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ex deserunt amet?</p>
+            <!-- FAQ item -->
+            <article class="container-md row px-4 m-0 mb-2">
+                <div class="faq-q col col-auto rounded p-0 m-0 mb-2">
+                    <h3 class="py-1 px-2 m-0">
+                        ¿Cuánto tardaría una canción?
+                    </h3>
+                </div>
+                <div class="ms-auto col-8 p-0 m-0 ">
+                    <p class="py-1 px-2 m-0">repuesta Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quo placeat voluptatibus?</p>
+                </div>
             </article>
-            <article>
-                <h3>
-                    ¿Cuántas sessions se pueden hacer?
-                </h3>
-                <p>repuesta Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis harum et.</p>
+            <!-- FAQ item -->
+            <article class="container-md row px-4 m-0 mb-2">
+                <div class="faq-q col col-auto rounded p-0 m-0 mb-2">
+                    <h3 class="py-1 px-2 m-0">
+                        ¿Cuántas sessions se pueden hacer?
+                    </h3>
+                </div>
+                <div class="ms-auto col-8 p-0 m-0 ">
+                    <p class="py-1 px-2 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt adipisci enim doloremque natus! Consequuntur?</p>
+                </div>
             </article>
         </section>
-        <div class="btns">
 
-            <a class="recBtn" href="../pages/contact.html">¡GRABEMOS!</a>
-            <a class="insBtn" href="../pages/portfolio.html">¿INSEGURO?</a>
+        <!-- FAQ desktop -->
+        <section class="d-none d-md-block">
+            <!-- Acordion inicio  -->
+            <div class="accordion accordion-flush row row-col-1 justify-content-center p-0 m-0 mb-3" id="accordionPanelsStayOpenExample">
+                <!-- #1 item  -->
+                <div class="accordion-item col col-7 p-0 mb-2">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            ¿Cuáles son los precios?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, iusto enim quibusdam facere quod animi repellendus eaque repudiandae asperiores voluptas, quasi harum odio veritatis dicta!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- #2 item -->
+                <div class="accordion-item col col-7 p-0 mb-2">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            ¿Cuánto tardaría una canción?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, iusto enim quibusdam facere quod animi repellendus eaque repudiandae asperiores voluptas, quasi harum odio veritatis dicta!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- #3 item -->
+                <div class="accordion-item col col-7 p-0 mb-2">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            ¿Cuántas sessiones se pueden hacer?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, iusto enim quibusdam facere quod animi repellendus eaque repudiandae asperiores voluptas, quasi harum odio veritatis dicta!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Botones mobile -->
+        <div class="container-fluid row px-0 pt-3 mx-0 mb-3 d-md-none">
+            <div class="col justify-content-center m-0 mb-3">
+                <a class="recBtn col col-auto rounded py-3 px-5" href="./contact.html">¡GRABEMOS!</a>
+            </div>
+            <!-- Boton/link Inseguro? -->
+            <div class="col justify-content-center p-0 m-0 mb-3">
+                <a class="insBtn col col-auto rounded py-2 px-4" href="./pages/portfolio.html">¿INSEGURO?</a>
+            </div>
+        </div>
+
+        <!-- Botones desktop -->
+        <div class="container-fluid row px-0 pt-3 mx-0 mb-3 d-none d-md-flex">
+            <div class="col col-4"></div>
+            <!-- Boton/link Grabemos! -->
+            <div class="col col-4 justify-content-center m-0 mb-3">
+                <a class="recBtn col col-auto rounded py-3 px-5" href="./contact.html">¡GRABEMOS!</a>
+            </div>
+            <!-- Boton/link Inseguro? -->
+            <div class="col col-4 justify-content-center m-0 mb-3">
+                <a class="insBtn col col-auto rounded py-2 px-4" href="./pages/portfolio.html">¿INSEGURO?</a>
+            </div>
         </div>
     </main>
 
