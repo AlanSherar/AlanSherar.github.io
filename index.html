@@ -15,26 +15,24 @@
 
 <body>
     <header>
-        <nav class="container-fluid navbar px-4 bg-light">
+        <nav class="container-fluid navbar px-4 ">
             <div class="container-fluid navbar justify-content-between"> 
-
-                <a class="navbar-brand m-0 fs-1" href="./index.html">AREC°</a>
-
+                <!-- Logo link -->
+                <a class="text-decoration-none fs-1 fw-bold m-0 ps-md-4" href="./index.html">AREC°</a>
+                <!-- Boton toggle -->
                 <button class="navbar-toggler d-md-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <!-- navbar solo visible en desktop -->
-                <ul class="d-none d-md-flex navbar-nav flex-row px-4">
+                <ul class="d-none d-md-flex navbar-nav flex-row pe-md-4">
                     <li class="col mx-4"><a href="./pages/about.html">About</a></li>
                     <li class="col mx-4"><a href="./pages/portfolio.html">Portfolio</a></li>
                     <li class="col mx-4"><a href="./pages/setup.html">Setup</a></li>
                     <li class="col mx-4"><a href="./pages/contact.html">Contact</a></li>
                 </ul>
             </div>
-
             <!-- navbar desplegable solo visible en mobile -->
-            <div class="container justify-content-end">
+            <div class="container justify-content-end d-md-none">
                 <div class="collapse" id="navbarToggleExternalContent">
                     <ul class="navbar-nav text-start me-2">
                         <li class="">
@@ -70,17 +68,20 @@
                     </ul>
                 </div>
             </div>
-            
         </nav>
     </header>
 
     <main>
+        <div class="container-fluid row justify-content-center p-0 mx-0 mt-3">
+            <h1 class="col col-auto p-0 m-0">Somos AREC°</h1>
+        </div>
         <!-- Descripcion, e imagen(solo desktop) -->
-        <section class="container-fluid row text-center justify-content-evenly align-items-center m-0 py-4">
-            <article class="col col-auto fs-5 p-0 col-md-5">
-                <p>Saludo cordial y presentación personal lDKLAWHKDWADLWAJDWQ ÑODJWAUK DH DKWJALDWADUWALDWA</p>
-                <p>DWAUHDWALDWAUDWDHWDU HDWALUHDWADWADWA DDKIGFLREIOJRE VBFDVFDVFD. DESCRIPCIÓN INTRODUCTORIA DWADIUWQÑEJQWEWQIDWQWQJEWQ</p>
+        <section class="container-fluid row text-center justify-content-evenly align-items-center m-0 pt-4 pt-md-4">
+            <article class="col col-8 fs-5 p-0 col-md-5">
+                <p class="text-break">Saludo cordial y presentación personal lDKLAWHKDWADLWAJDWQ ÑODJWAUK DH DKWJALDWADUWALDWA</p>
+                <p class="text-break">DWAUHDWALDWAUDWDHWDU HDWALUHDWADWADWA DDKIGFLREIOJRE VBFDVFDVFD. DESCRIPCIÓN INTRODUCTORIA DWADIUWQÑEJQWEWQIDWQWQJEWQ</p>
             </article>
+            <!-- Img -->
             <article class="col col-md-5 d-none d-md-block">
                 <figure>
                     <img class="img-fluid" src="./imgs/aestetic/estudio1.jpg" alt="imagen de setup de grabación">                    <figcaption></figcaption>
@@ -89,7 +90,7 @@
         </section>
         <!-- Boton/link Grabemos! -->
         <div class="container-fluid row justify-content-center m-0">
-            <a class="col col-auto recBtn" href="./pages/contact.html">¡GRABEMOS!</a>
+            <a class="recBtn col col-auto rounded py-3 px-5" href="./pages/contact.html">¡GRABEMOS!</a>
         </div>
         <!-- Previsualizacion -->
         <section class="container-fluid row justify-content-center align-items-center mx-0 mt-3">
@@ -110,17 +111,17 @@
             </article>
         </section>
         <!-- Boton/link Inseguro? -->
-        <div class="container-fluid row justify-content-center m-0">
-            <a class="col col-auto insBtn" href="./pages/portfolio.html">¿INSEGURO?</a>
+        <div class="container-fluid row justify-content-center m-0 mb-3">
+            <a class="insBtn col col-auto rounded py-2 px-4" href="./pages/portfolio.html">¿INSEGURO?</a>
         </div>
     </main>
 
     <footer class="container-fluid row py-4 m-0 text-center justify-content-between align-items-center">
-
+        <!-- Copyright -->
         <div class="col col-4 p-0">
             <h4 class="fs-6 m-0">&copy;copyright_AREC°</h4>
         </div>
-
+        <!-- Nav recomendado -->
         <div class="col col-auto">
             <ul class="navbar-nav">
                 <li><a href="./pages/about.html">About</a></li>
@@ -128,7 +129,7 @@
                 <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
         </div>
-
+        <!-- Nav rrss & address -->
         <span class="col col-4 ">
             <ul class="container-fluid navbar-nav flex-row justify-content-between m-0 p-0">
                 <li class="col col-4 "><a href="https://www.google.com.ar/maps">
@@ -148,10 +149,9 @@
                 </a></li>
             </ul>
         </span>
-
-        </footer>
-    <!--     Bootstrap JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </footer>
     
+        <!--     Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
