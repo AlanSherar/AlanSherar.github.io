@@ -1,5 +1,5 @@
 * {
-    color: #FAFBFD;
+    color: #fbfafd;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -17,15 +17,16 @@ a {
     text-decoration: none;
     color: #f8f5ff;
 }
-.faq h3{
-    color: black;
+.faq h3, input, select, option, textarea {
+  color: black;
 }
 .faq-q {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
-.faq-r {
-    color: #f8f5ff;
+.faq-r{
+  color: #f8f5ff;
 }
+
 /* accordion */
 .accordion-button {
     background-color: #ffffff;
@@ -51,7 +52,6 @@ a {
     background-color: #FAFBFD;
     font-weight: bolder;
 }
-
 
 /*
 header, footer, nav, article, ul, section, form, h2, h4{
