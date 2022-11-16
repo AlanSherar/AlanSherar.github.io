@@ -1,0 +1,82 @@
+$text-size: 1rem;
+$fuente: 'Roboto', sans-serif;
+$colors: (
+  bg-headfoot:#0c0425, 
+  bg-body: #05040f,
+  bg-lg: #fbfafd,
+  txt-lg: #fbfafd,
+  txt-dk: #0c0425,
+  rec-btn: #4F22F2,
+  ins-btn: #e40356,
+  navbar-ico: #231652
+);
+* {
+  color: map-get($map: $colors, $key: txt-lg);
+  font-family: $fuente;
+  font-weight: 300;
+  font-size: $text-size;
+}
+body {
+  background-color: map-get($map: $colors, $key: bg-body);
+}
+header, footer{
+  background-color: map-get($map: $colors, $key: bg-headfoot);
+}
+/* txt y links */
+a {
+  text-decoration: none;
+  color: map-get($map: $colors, $key: txt-lg);
+  font-size: $text-size*1.4;
+}
+footer{
+a{
+    font-size: $text-size;
+  }
+}
+h3 {
+  a {
+    font-size: $text-size*2;
+  }
+}
+form {
+  font-size: $text-size;
+}
+.faq{
+  h3{
+    color: map-get($map: $colors, $key: txt-dk);
+    font-size: $text-size * 1.5;
+  }
+}
+input, select, option, textarea {
+color: map-get($map: $colors, $key: txt-dk);
+}
+.faq-q {
+background-color: map-get($map: $colors, $key: bg-lg);
+}
+.faq-r{
+color: map-get($map: $colors, $key: txt-lg);
+}
+/* accordion */
+.accordion-button {
+  background-color: map-get($map: $colors, $key: bg-lg);
+  color: map-get($map: $colors, $key: txt-dk);
+  font-weight: 600;
+  font-size: $text-size*1.5;
+}
+.accordion-item {
+  background-color: map-get($map: $colors, $key: bg-body);
+}
+/* navBar */
+.navbar-toggler-icon, .navbar-toggler {
+  background-color: map-get($map: $colors, $key: navbar-ico);
+}
+/* Botones */
+.recBtn {
+  background-color: map-get($map: $colors, $key: rec-btn);
+}
+.insBtn {
+  color: map-get($map: $colors, $key: ins-btn);
+  background-color: map-get($map: $colors, $key: bg-lg);
+  font-weight: bolder;
+  font-size: $text-size*1.2;
+}
