@@ -1,0 +1,86 @@
+* {
+  color: #fbfafd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+main h1, main h2 {
+  text-shadow: 0px 0px 6px #4c23e0;
+}
+main h3 {
+  font-weight: 600;
+}
+
+body {
+  background-color: #05040f;
+}
+
+header, footer {
+  background-color: #0c0425;
+}
+
+/* txt y links */
+a {
+  text-decoration: none;
+  color: #fbfafd;
+  font-size: 1.4rem;
+}
+
+footer a {
+  font-size: 1rem;
+}
+
+h2 a {
+  font-size: 2rem;
+}
+
+form {
+  font-size: 1rem;
+}
+
+.faq h3 {
+  color: #0c0425;
+  font-size: 1.5rem;
+}
+
+input, select, option, textarea {
+  color: #0c0425;
+}
+
+.faq-q {
+  background-color: #fbfafd;
+}
+
+.faq-r {
+  color: #fbfafd;
+}
+
+/* accordion */
+.accordion-button {
+  background-color: #fbfafd;
+  color: #0c0425;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.accordion-item {
+  background-color: #05040f;
+}
+
+/* navBar */
+.navbar-toggler-icon, .navbar-toggler {
+  background-color: #231652;
+}
+
+/* Botones */
+.recBtn {
+  background-color: #4F22F2;
+}
+
+.insBtn {
+  color: #e40356;
+  background-color: #fbfafd;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=main.css.map */
