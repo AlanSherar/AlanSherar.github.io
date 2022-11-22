@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="../scss/main.css">
     <link rel="shortcut icon" href="../imgs/favicon/favicon.ico">
-    
-    <title>Arec Studio</title>
+    <meta name="description" content="Aún estás inseguro sobre grabar con nosotros? Te mostramos los proyectos de clientes ya han grabado con nosotros, y podes escuchar y valorar el nivel de calidad por vos mismo/ma">
+    <meta name="keywords" content="Portfolio, AREC, Clientes, Proyectos, Musica, Galería, Canciones">
+    <title>Portfolio de Proyectos</title>
   </head>
   
   <body>
     <header>
-      <nav class="container-fluid navbar px-4 ">
+      <nav class="container-fluid navbar px-4 py-0">
         <div class="container-fluid navbar justify-content-between"> 
           <!-- Logo link -->
-          <a class="text-decoration-none fs-1 fw-bold m-0 ps-md-4" href="../index.html">AREC°</a>
+          <div class="col text-start px-4">
+            <a class="text-decoration-none fs-1 fw-bold m-0" href="../index.html">AREC°</a>
+          </div>
           <!-- Boton toggle -->
           <button class="navbar-toggler d-md-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- navbar solo visible en desktop -->
-          <ul class="d-none d-md-flex navbar-nav flex-row pe-md-4">
-            <li class="col mx-4"><a href="./about.html">About</a></li>
-            <li class="col mx-4"><a href="./portfolio.html">Portfolio</a></li>
-            <li class="col mx-4"><a href="./setup.html">Setup</a></li>
-            <li class="col mx-4"><a href="./contact.html">Contact</a></li>
+          <ul class="navbar-nav flex-row d-none d-md-flex">
+            <li class="col px-4"><a href="./about.html">About</a></li>
+            <li class="col px-4"><a href="./portfolio.html">Portfolio</a></li>
+            <li class="col px-4"><a href="./setup.html">Setup</a></li>
+            <li class="col px-4"><a href="./contact.html">Contact</a></li>
           </ul>
         </div>
         <!-- navbar desplegable solo visible en mobile -->
@@ -73,20 +76,22 @@
     
     <main class="text-center">
       <!-- Titulo Portfolio -->
-      <div class="container-fluidp-0 mx-0 m-3">
-        <h1>Portfolio AREC°</h1>
+      <div class="container-fluid row justify-content-center p-0 mx-0 mt-4 mb-2 my-md-5">
+        <h1 class="col col-10">Explora los proyectos AREC°</h1>
       </div>
       <!-- Description -->
-      <section class="container-fluid row text-center justify-content-evenly align-items-center m-0 pt-4 pt-md-4">
+      <section class="container-fluid row text-center justify-content-evenly align-items-center m-0">
         <article class="col col-8 fs-5 p-0 ">
-          <p class="text-break">Descripción introductoria del porftolio y lo que se puede encontrar dentro      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere quas aspernatur incidunt, eaque amet non in quibusdam quia. Autem.</p>
+          <p class="fs-4">
+            En este porftolio podes encontrar una colección de proyectos de nuestros clientes y links a sus galerías y plataformas  personales . Podes explorar y mirar hasta quedar satisfecho y con ganas de grabar con nosotros ;)
+          </p>
         </article>
       </section>
       <!-- Client 1 -->
       <section class="container-md">
         <!-- rrss -->
         <article class="rrssClient row justify-content-center align-items-center my-3">
-          <h3 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >Cliente 1</a></h3>
+          <h2 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >Cliente 1</a></h2>
           <a class="col col-auto" href="https://www.instagram.com" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
@@ -99,13 +104,13 @@
           </a>
         </article>
         <!-- Previsualizaciones -->
-        <article class="flex-row mb-3 ">
+        <article class="flex-row mb-4 ">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/mujer-grabando3.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-4 my-1" src="../imgs/portfolio/mujer-grabando3.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/mujer-grabando3.jpg" alt="imagen o video de su proyecto">
         </article>
         <!-- Boton GRABEMOS! -->
-        <div class="container-fluid row justify-content-center m-0 mb-3">
+        <div class="container-fluid row justify-content-center m-0 mb-4">
           <a class="recBtn col col-auto rounded py-3 px-5" href="./contact.html">¡GRABEMOS!</a>
         </div>
       </section>
@@ -113,7 +118,7 @@
       <section class="container-md">
         <!-- rrss -->
         <article class="rrssClient row justify-content-center align-items-center my-3">
-          <h3 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >Cliente 2</a></h3>
+          <h2 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >Cliente 2</a></h2>
           <a class="col col-auto" href="https://www.instagram.com" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
@@ -126,13 +131,13 @@
           </a>
         </article>
         <!-- Previsualizaciones -->
-        <article class="flex-row mb-3 ">
+        <article class="flex-row mb-4 ">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/mujer-grabando2.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-4 my-1" src="../imgs/portfolio/mujer-grabando2.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/mujer-grabando2.jpg" alt="imagen o video de su proyecto">
         </article>
         <!-- Boton GRABEMOS! -->
-        <div class="container-fluid row justify-content-center m-0 mb-3">
+        <div class="container-fluid row justify-content-center m-0 mb-4">
           <a class="recBtn col col-auto rounded py-3 px-5" href="./contact.html">¡GRABEMOS!</a>
         </div>
       </section>
@@ -140,7 +145,7 @@
       <section class="container-md">
         <!-- rrss -->
         <article class="rrssClient row justify-content-center align-items-center my-3">
-          <h3 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >Cliente 3</a></h3>
+          <h2 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >Cliente 3</a></h2>
           <a class="col col-auto" href="https://www.instagram.com" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
@@ -153,13 +158,13 @@
           </a>
         </article>
         <!-- Previsualizaciones -->
-        <article class="flex-row mb-3 ">
+        <article class="flex-row mb-4 ">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/mujer-grabando1.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-4 my-1" src="../imgs/portfolio/mujer-grabando1.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/mujer-grabando1.jpg" alt="imagen o video de su proyecto">
         </article>
         <!-- Boton GRABEMOS! -->
-        <div class="container-fluid row justify-content-center m-0 mb-3">
+        <div class="container-fluid row justify-content-center m-0 mb-4">
           <a class="recBtn col col-auto rounded py-3 px-5" href="./contact.html">¡GRABEMOS!</a>
         </div>
       </section>
@@ -167,7 +172,7 @@
       <section class="container-md">
         <!-- rrss -->
         <article class="rrssClient row justify-content-center align-items-center my-3">
-          <h3 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >AREC° Projects</a></h3>
+          <h2 class="col col-auto m-0"><a href="./portfolio-perfil.html" target="_blank" >AREC° Projects</a></h2>
           <a class="col col-auto" href="https://www.instagram.com" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
@@ -180,13 +185,13 @@
           </a>
         </article>
         <!-- Previsualizaciones -->
-        <article class="flex-row mb-3 ">
+        <article class="flex-row mb-4 ">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/varon-grabando.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-4 my-1" src="../imgs/portfolio/varon-grabando.jpg" alt="imagen o video de su proyecto">
           <img class="img-fluid col col-md-3 my-1" src="../imgs/portfolio/varon-grabando.jpg" alt="imagen o video de su proyecto">
         </article>
         <!-- Boton GRABEMOS! -->
-        <div class="container-fluid row justify-content-center m-0 mb-3">
+        <div class="container-fluid row justify-content-center m-0 mb-4">
           <a class="recBtn col col-auto rounded py-3 px-5" href="./contact.html">¡GRABEMOS!</a>
         </div>
       </section>

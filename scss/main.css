@@ -5,6 +5,13 @@
   font-size: 1rem;
 }
 
+main h1, main h2 {
+  text-shadow: 0px 0px 6px #4c23e0;
+}
+main h3 {
+  font-weight: 600;
+}
+
 body {
   background-color: #05040f;
 }
@@ -24,7 +31,7 @@ footer a {
   font-size: 1rem;
 }
 
-h3 a {
+h2 a {
   font-size: 2rem;
 }
 

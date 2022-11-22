@@ -2,32 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./scss/main.css">
-    
     <link rel="shortcut icon" href="./imgs/favicon/favicon.ico">
-    <title>Arec Studio</title>
+    <meta name="description" content="Grabá tu música con AREC° y alcanzá la calidad que buscas, gracias a nuestras sessiones personalizadas para cada proyecto!">
+    <meta name="keywords" content="AREC, Estudio, Musica, Grabar, Artista, Cancion, Banda">
+    <title>Estudio AREC°</title>
   </head>
 
   <body>
     <header>
-      <nav class="container-fluid navbar px-4 ">
+      <nav class="container-fluid navbar px-4 py-0">
         <div class="container-fluid navbar justify-content-between"> 
           <!-- Logo link -->
-          <a class="text-decoration-none fs-1 fw-bold m-0 ps-md-4" href="./index.html">AREC°</a>
+          <div class="col text-start px-4">
+            <a class="text-decoration-none fs-1 fw-bold m-0" href="./index.html">AREC°</a>
+          </div>
           <!-- Boton toggle -->
           <button class="navbar-toggler d-md-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- navbar solo visible en desktop -->
-          <ul class="navbar-nav flex-row pe-md-4 d-none d-md-flex">
-            <li class="col mx-4"><a href="./pages/about.html">About</a></li>
-            <li class="col mx-4"><a href="./pages/portfolio.html">Portfolio</a></li>
-            <li class="col mx-4"><a href="./pages/setup.html">Setup</a></li>
-            <li class="col mx-4"><a href="./pages/contact.html">Contact</a></li>
+          <ul class="navbar-nav flex-row d-none d-md-flex">
+            <li class="col px-4"><a href="./pages/about.html">About</a></li>
+            <li class="col px-4"><a href="./pages/portfolio.html">Portfolio</a></li>
+            <li class="col px-4"><a href="./pages/setup.html">Setup</a></li>
+            <li class="col px-4"><a href="./pages/contact.html">Contact</a></li>
           </ul>
         </div>
         <!-- navbar desplegable solo visible en mobile -->
@@ -72,46 +76,47 @@
     
     <main class="text-center">
       <!-- Titulo Index -->
-      <div class="container-fluid p-0 mx-0 m-3">
-        <h1>Somos AREC°</h1>
+      <div class="container-fluid row justify-content-center p-0 mx-0 mt-4 mb-2 my-md-5">
+        <h1 class="col col-10">Bienvenido/da al sitio oficial de AREC°</h1>
       </div>
       <!-- Description, e img(solo desktop) -->
-      <section class="container-fluid row text-center justify-content-evenly align-items-center m-0 pt-4 pt-md-4">
-        <article class="col col-8 fs-5 p-0 col-md-5">
-          <p class="text-break">Saludo cordial y presentación personal lDKLAWHKDWADLWAJDWQ ÑODJWAUK DH DKWJALDWADUWALDWA</p>
-          <p class="text-break">DWAUHDWALDWAUDWDHWDU HDWALUHDWADWADWA DDKIGFLREIOJRE VBFDVFDVFD. DESCRIPCIÓN INTRODUCTORIA DWADIUWQÑEJQWEWQIDWQWQJEWQ</p>
+      <section class="container-fluid row text-center justify-content-evenly align-items-center m-0 mb-4">
+        <article class="col col-10 p-0 col-md-5">
+          <p class="fs-5">Somos un equipo de personas que aman la música.</p>
+          <p class="fs-5">AREC° existe con la intención de que artistas como vos, logren llevar sus ideas a la realidad.</p>
+          <p class="fs-2">Te estabamos esperando!</p>
         </article>
         <!-- Img -->
         <article class="col col-md-5 d-none d-md-block">
           <figure>
-            <img class="img-fluid" src="./imgs/aestetic/estudio1.jpg" alt="imagen de setup de grabación">                    <figcaption></figcaption>
+            <img class="img-fluid" src="./imgs/aestetic/estudio2.jpg" alt="imagen de setup de grabación">                    <figcaption></figcaption>
           </figure>
         </article>
       </section>
       <!-- Boton/link Grabemos! -->
-      <div class="container-fluid row justify-content-center m-0 mt-2">
+      <div class="container-fluid row justify-content-center m-0 mb-4">
         <a class="recBtn col col-auto rounded py-3 px-5" href="./pages/contact.html">¡GRABEMOS!</a>
       </div>
       <!-- Previsualizacion -->
-      <section class="container-fluid row justify-content-center align-items-center px-5 mx-0 mt-4">
-        <article class="col col-3"> 
-          <figure>
-            <img class="img-fluid portfolioMedia" src="./imgs/setup/setup3.jpg" alt="Imagen o video de algún proyecto">
+      <section class="container-fluid row justify-content-center align-items-center px-4 mx-0 mb-4">
+        <article class="col col-3 d-none d-md-block"> 
+          <figure class="m-0">
+            <img class="img-fluid portfolioMedia ps-3" src="./imgs/setup/setup3.jpg" alt="Imagen o video de algún proyecto">
           </figure>
         </article>
-        <article class="col col-md-6"> 
-          <figure >
-            <img class="img-fluid portfolioMedia" src="./imgs/aestetic/estudio2.jpg" alt="Imagen o video de algún proyecto">
+        <article class="col col-sm-10 col-md-6 p-0"> 
+          <figure class="m-0">
+            <img class="img-fluid portfolioMedia" src="./imgs/aestetic/estudio1.jpg" alt="Imagen o video de algún proyecto">
           </figure>
         </article>
-        <article class="col col-3"> 
-          <figure>  
-            <img class="img-fluid portfolioMedia" src="./imgs/setup/setup6.jpg" alt="Imagen o video de algún proyecto">
+        <article class="col col-3 d-none d-md-block"> 
+          <figure class="m-0">  
+            <img class="img-fluid portfolioMedia pe-3" src="./imgs/setup/setup6.jpg" alt="Imagen o video de algún proyecto">
           </figure>
         </article>
       </section>
       <!-- Boton/link Inseguro? -->
-      <div class="container-fluid row justify-content-center m-0 mb-3">
+      <div class="container-fluid row justify-content-center m-0 mb-4">
         <a class="insBtn col col-auto rounded py-2 px-4" href="./pages/portfolio.html">¿INSEGURO?</a>
       </div>
     </main>
