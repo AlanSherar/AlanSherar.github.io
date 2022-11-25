@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,500;1,800&display=swap");
 * {
+  font-family: "Raleway", sans-serif;
   color: #fbfafd;
-  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -9,7 +10,11 @@ main h1, main h2 {
   text-shadow: 0px 0px 6px #4c23e0;
 }
 main h3 {
-  font-weight: 600;
+  font-weight: 500;
+  font-style: italic;
+}
+main .subrayado {
+  text-decoration: underline;
 }
 
 body {
@@ -41,7 +46,8 @@ form {
 
 .faq h3 {
   color: #0c0425;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 input, select, option, textarea {

@@ -1,5 +1,6 @@
 $text-size: 1rem;
-$fuente: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;0,800;1,100;1,300;1,500;1,800&display=swap');
+$fuente: 'Raleway', sans-serif;
 $tshadow: 0px 0px 6px #4c23e0;
 $colors: (
   bg-headfoot:#0c0425, 
@@ -12,8 +13,8 @@ $colors: (
   navbar-ico: #231652
 );
 * {
-  color: map-get($map: $colors, $key: txt-lg);
   font-family: $fuente;
+  color: map-get($map: $colors, $key: txt-lg);
   font-weight: 300;
   font-size: $text-size;
 }
@@ -22,7 +23,11 @@ main {
     text-shadow: $tshadow;
   }
   h3 {
-    font-weight: 600;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .subrayado {
+    text-decoration: underline;
   }
 }
 
@@ -52,9 +57,10 @@ form {
   font-size: $text-size;
 }
 .faq{
-  h3{
+  h3 {
     color: map-get($map: $colors, $key: txt-dk);
-    font-size: $text-size * 1.5;
+    font-size: $text-size * 1.2;
+    font-weight: 500;
   }
 }
 input, select, option, textarea {
